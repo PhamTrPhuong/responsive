@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Trang chính</title>
+	<link rel="stylesheet" type="text/css" href="asset/user/css/normalize.min.css">
+	<link rel="stylesheet" type="text/css" href="asset/user/css/base.css">
+	<link rel="stylesheet" type="text/css" href="asset/user/css/main.css">
+	<link rel="stylesheet" type="text/css" href="asset/user/fonts/fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="asset/user/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<!--[if lt IE 9]>
+		<script type="text/javascript" src="asset/user/js/respond.min.js"></script>	
+	<![endif]-->
+	<script type="text/javascript" src="asset/user/js/jquery.min.js"></script>
+	<script type="text/javascript" src="asset/user/js/common.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="grid">
+				<nav class="header__navbar">
+					<ul class="header__navbar-list">
+						<li class="header__navbar-item">
+							<a href="#" class="header__navbar-logo"><img src="asset/user/image/black-logo.png" alt="ảnh logo"></a>
+						</li>
+					</ul>
+					<ul class="header__navbar-list">
+						<li class="header__navbar-item header__navbar-item--separate">
+							<a href="#" class="header__navbar-item-link">Đăng nhập</a>
+						</li>
+						<li class="header__navbar-item">
+							<a href="#" class="header__navbar-item-link">Đăng ký</a>
+						</li>
+						<li class="header__navbar-item header__navbar-user">
+							<img src="asset/user/image/black-logo.png" alt="" class="header__navbar-user-img">
+							<span class="header__navbar-user-name">Trúc Phương</span>
+							<ul class="header__navbar-user-menu">
+								<li class="header__navbar-user-item">
+									<a href="#">Tài khoản của tôi</a>
+								</li>
+								<li class="header__navbar-user-item">
+									<a href="#">Sản phẩm đã mua</a>
+								</li>
+								<li class="header__navbar-user-item header__navbar-user-item--separate">
+									<a href="#">Đăng xuất</a>
+								</li>
+							</ul>
+						</li>
+						<li class="header__navbar-item">
+							<a href="#" class="header__navbar-item-link"><i class="fas fa-search"></i> Tìm kiếm</a>
+						</li>
+						<li class="header__navbar-item">
+							<a href="#" class="header__navbar-item-link"><i class="far fa-clock"></i> Lịch sử</a>
+						</li>
+						<li class="header__navbar-item">
+							<a href="#" class="header__navbar-item-link"><i class="far fa-heart"></i> Yêu thích</a>
+						</li>
+						<li class="header__navbar-item header__navbar-item--mobile">
+							<label for="nav-mobile-input" class="header__navbar-item-link menu_click"><i class="fas fa-bars"></i> Menu</label>
+							<input type="checkbox" name="" class="nav__input" id="nav-mobile-input">
+							<!-- <button class="menu-toggler">
+						        <span></span>
+						        <span></span>
+						        <span></span>
+						    </button> -->
+							<label for="nav-mobile-input" class="header__navbar-item-overlay"></label>
+							<div class="header__navbar-item-menu"> 
+								<div class="header__navbar-menu-logo header__navbar-logo">
+									<a href="#" class="header__logo-no-poniter"><img src="asset/user/image/black-logo.png" alt="ảnh logo"></a>
+									<label for="nav-mobile-input" class="header__navbar-menu-icon"><i class="fas fa-times"></i></label>
+								</div>
+								<ul class="header__navbar-menu-list-1">
+									<li class="header__navbar-menu-item1"><a href="#">Các câu hỏi thường gặp</a></li>
+									<li class="header__navbar-menu-item1"><a href="#">Tìm hiểu về web RíEdsa</a></li>
+									<li class="header__navbar-menu-item1"><a href="#">Hàng đầu</a></li>
+									<li class="header__navbar-menu-item1"><a href="#">Tìm phòng</a></li>
+								</ul>
+								<ul class="header__navbar-menu-list-2">
+									<li class="header__navbar-menu-item2"><a href="#">Danh sách yêu thích</a></li>
+									<li class="header__navbar-menu-item2"><a href="#">Xem trước danh sách đắt chổ</a></li>
+									<li class="header__navbar-menu-item2"><a href="#">Cài đặt thông tin khách hàng</a></li>
+									<li class="header__navbar-menu-item2"><a href="#dangxuat">Đăng xuất</a></li>
+								</ul>
+								<div class="header__navbar-menu-button">
+									<button class="header__navbar-menu-button-text">お問い合わせ</button>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</nav>	
+				<div class="grid wide">
+					<div class="row">
+						<div class="col l-12 m-12 c-12">
+							<div class="header-with-search">
+								<div class="row">
+									<div class="col l-9 m-12 c-12">
+										<div class="header__search">
+											<input type="text" class="header__search-input" name="" placeholder="Nhập địa điểm hoặc mã tin">
+											<div class="header__search-select">
+												<select class="header__search-option">
+													<option>Nhà đất bán</option>
+													<option>Nhà đất cho thuê</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class="col l-3 m-6 c-6">
+										<div class="header__button">
+											<button class="header__button-link"><i class="header__button-icon fa fa-search"></i> Tìm kiếm</button>
+										</div>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="container">
+			<div class="grid wide">
+				<section class="BenefitsView1" style="background-color: white;height: 365px;">
+					<div class="row">
+						<div class="col l-12 m-12 c-12">
+							<div class="heading-with-subtitle">
+								<p class="subtilte-t1">BENEFITS</p>
+								<h2 class="tilte-t2">OHEYAGOなら</h2>
+							</div>
+						</div>
+					</div>
+					<div class="BenefitsContainer">
+						<div class="row">
+					        <div class="col l-4 m-12 c-12">
+					        	<div class="BenefitsContainer__item BenefitsContainer__img1">
+									<p class="BenefitsContainer__item-text1">不動産屋に行かなくてOK</p>
+									<p class="BenefitsContainer__item-text2">やりとり・申し込み・入居手続きはWebで完結</p>
+								</div>
+					        </div>
+					        <div class="col l-4 m-12 c-12">
+					        	<div class="BenefitsContainer__item BenefitsContainer__img2">
+									<p class="BenefitsContainer__item-text1">空室確認の待ち時間ゼロ</p>
+									<p class="BenefitsContainer__item-text2">物件情報が常に最新</p>
+								</div>
+					        </div>
+					        <div class="col l-4 m-12 c-12">
+						        <div class="BenefitsContainer__item BenefitsContainer__img3">
+									<p class="BenefitsContainer__item-text1">最短で当日の30分後に内見</p>
+									<p class="BenefitsContainer__item-text2">カレンダーからその場で内見予約完了</p>
+								</div>
+					        </div>
+				        </div>
+				     </div>
+				</section>
+			</div>
+			<div class="grid wide">
+				<section class="RoomRecommendView2" style="background-color: gray;height: 550px;">
+					<div class="row">
+						<div class="col l-12 m-12 c-12">
+							<div class="heading-with-subtitle">
+								<p class="subtilte-t1">RECOMMEND</p>
+								<h2 class="tilte-t2">すぐ内見できるオススメ賃貸物件</h2>
+							</div>
+						</div>
+					</div>
+					<div class="recommendation__room">
+						<div class="row">
+							<div class="col l-3 m-6 c-6">
+								<div class="room__cardsummary">
+									<img alt="" class="room_img" src="asset/user/image/1.jpg"></img>
+									<div class="description">
+										<div class="room_tilte">モダンラフォンテ南六郷 104</div>
+										<span class="room__cost">
+											<span class="price">
+												<span class="price_num">10.1</span>
+												<span class="price_unit">万円</span>
+											</span>
+										</span>
+										<span class="room_info">ワンルーム | 27.42㎡</span>
+										<div class="room_info1">
+											<span class="tag11">JR中央・総武線 浅草橋 徒歩8分</span>
+											<span class="tag22">#今すぐ内見</span>
+										</div>
+									</div>
+									<a class="room_link" draggable="false" href="https://www.google.com/" rel="noopener noreferrer" target="_blank">このお部屋詳細を見る</a>
+								</div>
+							</div>
+							<div class="col l-3 m-6 c-6">
+								<div class="room__cardsummary">
+									<img alt="" class="room_img" src="asset/user/image/2.jpg"></img>
+									<div class="description">
+										<div class="room_tilte">モダンラフォンテ南六郷 104</div>
+										<span class="room__cost">
+											<span class="price">
+												<span class="price_num">10.1</span>
+												<span class="price_unit">万円</span>
+											</span>
+										</span>
+										<span class="room_info">ワンルーム | 27.42㎡</span>
+										<div class="room_info1">
+											<span class="tag11">JR中央・総武線 浅草橋 徒歩8分</span>
+											<span class="tag22">#今すぐ内見</span>
+										</div>
+									</div>
+									<a class="room_link" draggable="false" href="https://www.google.com/" rel="noopener noreferrer" target="_blank">このお部屋詳細を見る</a>
+								</div>
+							</div>
+							<div class="col l-3 m-6 c-6">
+								<div class="room__cardsummary">
+									<img alt="" class="room_img" src="asset/user/image/3.jpg"></img>
+									<div class="description">
+										<div class="room_tilte">モダンラフォンテ南六郷 104</div>
+										<span class="room__cost">
+											<span class="price">
+												<span class="price_num">10.1</span>
+												<span class="price_unit">万円</span>
+											</span>
+										</span>
+										<span class="room_info">ワンルーム | 27.42㎡</span>
+										<div class="room_info1">
+											<span class="tag11">JR中央・総武線 浅草橋 徒歩8分</span>
+											<span class="tag22">#今すぐ内見</span>
+										</div>
+									</div>
+									<a class="room_link" draggable="false" href="https://www.google.com/" rel="noopener noreferrer" target="_blank">このお部屋詳細を見る</a>
+								</div>
+							</div>
+							<div class="col l-3 m-6 c-6">
+								<div class="room__cardsummary">
+									<img alt="" class="room_img" src="asset/user/image/4.jpg"></img>
+									<div class="description">
+										<div class="room_tilte">モダンラフォンテ南六郷 104</div>
+										<span class="room__cost">
+											<span class="price">
+												<span class="price_num">10.1</span>
+												<span class="price_unit">万円</span>
+											</span>
+										</span>
+										<span class="room_info">ワンルーム | 27.42㎡</span>
+										<div class="room_info1">
+											<span class="tag11">JR中央・総武線 浅草橋 徒歩8分</span>
+											<span class="tag22">#今すぐ内見</span>
+										</div>
+									</div>
+									<a class="room_link" draggable="false" href="https://www.google.com/" rel="noopener noreferrer" target="_blank">このお部屋詳細を見る</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="grid wide">
+				<section class="AboutView3" style="background-color: red;">
+					<div class="row">
+						<div class="col l-12 m-12 c-12">
+							<div class="heading-with-subtitle">
+								<p class="subtilte-t1">ABOUT</p>
+								<h2 class="tilte-t2">セルフ内見型賃貸サイトOHEYAGO</h2>
+							</div>
+						</div>
+					</div>
+					<div class="AboutContainer">
+						<div class="row">
+					        <div class="col l-6 m-6 c-12">
+					        	<img alt="" class="about__item" src="asset/user/image/SupportYou.svg">
+					        </div>
+					        <div class="col l-6 m-6 c-12">
+					        	<img alt="" class="about__item" src="asset/user/image/NeverTired.svg">
+					        </div>
+				        </div>
+				        <div class="row">
+				        	<div class="col l-12 m-12 c-12">
+				        		<a href="#" class="button__secondary-rect">
+				        			<span class="sub-text">不動産テックを活用した、新しいお部屋探し</span>
+				        			<span class="main-text">もっとOHEYAGOを知る</span>
+				        		</a>
+				        	</div>
+				        </div>
+				     </div>
+				</section>
+			</div>
+			<!-- <div class="grid wide">
+				<section class="AboutFlowView4" style="background-color: white;height: 365px;">
+					<div class="row">
+						<div class="col l-12 m-12 c-12">
+							<div class="heading-with-subtitle">
+								<p class="subtilte-t1">FLOW</p>
+								<h2 class="tilte-t2">OHEYAGOを使ったお部屋探し</h2>
+							</div>
+						</div>
+					</div>
+					<div class="BenefitsContainer">
+						<div class="row">
+					        <div class="col l-6 m-6 c-12"></div>
+					        <div class="col l-6 m-6 c-12"></div>
+				        </div>
+				     </div>
+				</section>
+			</div> -->
+		</div>
+		<footer class="footer">
+			
+		</footer>
+	</div>
+
+	<!-- <div class="modal">
+		<div class="modal__overlay"></div>
+		<div class="modal__body"> -->
+			<!-- Register form -->
+			<!-- <div class="auth-form">
+				<div class="auth-form__container">
+					<div class="auth-form__header">
+						<h3 class="auth-form__heading">Đăng kí</h3>
+						<span class="auth-form__switch-btn">Đăng nhập</span>
+					</div>
+					<div class="auth-form__form">
+						<div class="auth-form__group">
+							<input type="text" class="auth-form__input" placeholder="Nhập email của bạn">
+						</div>
+						<div class="auth-form__group">
+							<input type="password" class="auth-form__input" placeholder="Nhập mật khẩu của bạn">
+						</div>
+						<div class="auth-form__group">
+							<input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu của bạn">
+						</div>
+					</div>
+					<div class="auth-form__aside">
+						<p class="auth-form__policy-text">
+							Bằng việc đăng kí, bạn đồng ý với các 
+							<a href="" class="auth-form__text-link">Điều khoản dịch vụ</a> &
+							<a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+						</p>
+					</div>
+					<div class="auth-form__controls">
+						<button class="btn btn--normal auth-form__control-back">Trở lại</button>
+						<button class="btn btn--primary">Đăng kí</button>
+					</div>
+				</div>
+				<div class="auth-form__socials">
+					<a href="" class="auth-form__socials-fb btn btn--size-s btn--with-icon">
+						<i class="auth-form__socials-icon fab fa-facebook-square"></i>
+						<span class="auth-form__socials-title">kết nối với facebook</span> 
+					</a>
+					<a href="" class="auth-form__socials-gg btn btn--size-s btn--with-icon">
+						<i class="auth-form__socials-icon fab fa-google"></i>
+						<span class="auth-form__socials-title">kết nối với google</span>
+					</a>
+				</div>
+			</div> -->
+
+			<!-- Login form -->
+			<!-- <div class="auth-form">
+				<div class="auth-form__container">
+					<div class="auth-form__header">
+						<h3 class="auth-form__heading">Đăng nhập</h3>
+						<span class="auth-form__switch-btn">Đăng kí</span>
+					</div>
+					<div class="auth-form__form">
+						<div class="auth-form__group">
+							<input type="text" class="auth-form__input" placeholder="Nhập email của bạn">
+						</div>
+						<div class="auth-form__group">
+							<input type="password" class="auth-form__input" placeholder="Nhập mật khẩu của bạn">
+						</div>
+					</div>
+					<div class="auth-form__aside">
+						<div class="auth-form__help">
+							<a href="" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+							<span class="auth-form__help-separate"></span>
+							<a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+						</div>
+					</div>
+					<div class="auth-form__controls">
+						<button class="btn btn--normal auth-form__control-back">Trở lại</button>
+						<button class="btn btn--primary">Đăng nhập</button>
+					</div>
+				</div>
+				<div class="auth-form__socials">
+					<a href="" class="auth-form__socials-fb btn btn--size-s btn--with-icon">
+						<i class="auth-form__socials-icon fab fa-facebook-square"></i>
+						<span class="auth-form__socials-title">kết nối với facebook</span> 
+					</a>
+					<a href="" class="auth-form__socials-gg btn btn--size-s btn--with-icon">
+						<i class="auth-form__socials-icon fab fa-google"></i>
+						<span class="auth-form__socials-title">kết nối với google</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+</body>
+</html>
