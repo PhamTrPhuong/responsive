@@ -1,1 +1,1 @@
-This project is just demo. jj
+This project is just demo.
